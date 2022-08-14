@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="num-input">
+            <h1>Metric/Imperial unit conversion</h1>
+            <input id="num-metric" type="number" placeholder="20" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+        </section>
+        
+        <section class="result">
+            <article>
+                <h2>Length (Meter/Feet)</h2>
+                <p><span id="num1-metric">20</span> meters = <span id="feet-result">65.616</span> feet | <span id="num2-metric">20</span> feet = <span id="meters-result">6.096</span> meters</p>
+            </article>
+            <article>
+                <h2>Volume (Liters/Gallons)</h2>
+                <p><span id="num3-metric">20</span> liters = <span id="gallons-result">5.284</span> gallons | <span id="num4-metric">20</span> gallons = <span id="liters-result">75.708</span> liters</p>
+            </article>
+            <article>
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p><span id="num5-metric">20</span> kilos = <span id="pounds-result">44.092</span> pounds | <span id="num6-metric">20</span> pounds = <span id="kilos-result">9.072</span> kilos</p>
+            </article>
+            
+        </section>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.num-input{
+    background-image: linear-gradient(
+    45deg,
+    hsl(266deg 100% 50%) 9%,
+    hsl(268deg 100% 50%) 26%,
+    hsl(271deg 100% 49%) 34%,
+    hsl(273deg 100% 49%) 40%,
+    hsl(275deg 100% 48%) 45%,
+    hsl(277deg 100% 48%) 49%,
+    hsl(279deg 100% 47%) 53%,
+    hsl(281deg 100% 47%) 57%,
+    hsl(283deg 100% 47%) 60%,
+    hsl(285deg 100% 46%) 63%,
+    hsl(287deg 100% 46%) 66%,
+    hsl(288deg 100% 45%) 69%,
+    hsl(290deg 100% 45%) 72%,
+    hsl(292deg 100% 44%) 75%,
+    hsl(293deg 100% 44%) 78%,
+    hsl(295deg 100% 44%) 80%,
+    hsl(297deg 100% 43%) 83%,
+    hsl(298deg 100% 43%) 86%,
+    hsl(300deg 100% 42%) 89%,
+    hsl(301deg 100% 43%) 92%,
+    hsl(303deg 100% 44%) 96%,
+    hsl(304deg 100% 44%) 100%
+    );
+    width: 550px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,255,255,.0);
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 26px;
+    letter-spacing: -5%;
+}
+.num-input > #num-metric{
+    font-size: 97.57px;
+    font-weight: 900;
+    margin-top: 13px;
+}
+
+.result{
+    margin-top: 50px;
+}
+article{
+    margin-bottom: 27px;
+}
+h2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 14px;
+    font-weight: 200;
+}
